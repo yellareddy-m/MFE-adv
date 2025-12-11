@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-    paths: -'container/**'
+    paths:
+      - "container/**"
 defaults:
   run:
     working-directory: container
